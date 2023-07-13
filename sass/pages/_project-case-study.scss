@@ -69,32 +69,36 @@
     margin: auto;
   }
   &__desc {
-    margin: 0 0 7rem 0;
+    margin: 0 0 2rem 0;
 
     &-para {
       font-size: 1.8rem;
       line-height: 1.7;
       color: grey;
-      margin-bottom: 2rem;
+      margin-bottom: 0rem;
     }
   }
-  &__tools-used {
-    margin: 0 0 7rem 0;
 
+  &__tools-used {
+    margin: 0 0 0rem 0;
+    
     &-list {
       display: flex;
       flex-wrap: wrap;
     }
     &-item {
       padding: 1rem 2rem;
-      margin-bottom: 1.5rem;
-      margin-right: 1.5rem;
+      margin-bottom: 1rem;
+      margin-right: 1rem;
       font-size: 1.6rem;
       background: rgba(#999, 0.2);
       border-radius: $commonBorderRadius;
       font-weight: 600;
       color: #777;
     }
+  }
+  &__content-title{
+      margin-bottom: 1rem;
   }
   &__links {
     margin: 0 0;
